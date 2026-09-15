@@ -13,3 +13,9 @@ Command-line Tools를 설치하였다.
 이후 아래 명령어를 사용하여 Android 라이선스에 동의하였다.
 
 flutter doctor --android-licenses
+
+## 2. 첫 앱 실행 화면 및 사용 Device
+
+- **사용한 Device**: Chrome (Web)
+- **앱 실행 증거**:
+![첫 앱 실행 화면](./app_run.png)
