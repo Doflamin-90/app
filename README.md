@@ -49,17 +49,17 @@
 - **`evidence/ac1-valid.png` (정상 입력)**:
   - 입력창에 `Dart 객체지향` 입력 후 추가하여 목록 및 `미완료` 상태가 정상 표시됨.
 
-![AC1 정상 입력](./evidence/ac1-valid.png)
+![AC1 정상 입력](./week3_goal_lab/evidence/ac1-valid.png)
 
 - **`evidence/ac2-empty.png` (공백 입력 오류)**:
   - 빈 값 입력 후 추가 클릭 시 차단되며 `목표를 입력하세요` 오류 문구가 표시됨.
 
-![AC2 공백 입력](./evidence/ac2-empty.png)
+![AC2 공백 입력](./week3_goal_lab/evidence/ac2-empty.png)
 
 - **`evidence/ac3-complete.png` (완료 전환)**:
   - 항목 선택 시 체크박스가 활성화되고 텍스트가 `완료` 상태로 변경됨.
 
-![AC3 완료 전환](./evidence/ac3-complete.png)
+![AC3 완료 전환](./week3_goal_lab/evidence/ac3-complete.png)
 
 ---
 
