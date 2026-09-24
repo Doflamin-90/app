@@ -92,7 +92,7 @@ Flutter 기반으로 구현한 클래식 벽돌깨기 게임입니다.
 
 ## 📸 실행 화면
 
-![벽돌깨기 게임 실행 화면](./game_run.png)
+![벽돌깨기 게임 실행 화면](./brick_breaker_game/game_run.png)
 
 ---
 
