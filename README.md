@@ -116,6 +116,6 @@ Flutter 기반으로 구현한 클래식 벽돌깨기 게임입니다.
 - **주요 내용**: Flutter 기본 위젯(Row, Column, ListView, Card, SnackBar)을 사용한 프로필 화면 구성
 - **검증 결과**: `flutter analyze` 0건 통과
 
-### 📸 실행 화면 (AC1 Header)
+### 📸 실행 화면
 
 ![4주차 프로필 화면](./week4_widget_lab/evidence/ac1-header.png)
