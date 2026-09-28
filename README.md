@@ -108,3 +108,14 @@ Flutter 기반으로 구현한 클래식 벽돌깨기 게임입니다.
 - 패들 반응 속도 향상 및 공 속도 최적화
 - 공-패들, 공-벽, 공-벽돌 간의 충돌 감지 및 반사 로직
 - 게임 오버 및 승리(ALL CLEAR) 조건 처리 및 재시작 기능
+
+---
+
+## 📱 대표 위젯으로 프로필 화면 만들기
+
+- **주요 내용**: Flutter 기본 위젯(Row, Column, ListView, Card, SnackBar)을 사용한 프로필 화면 구성
+- **검증 결과**: `flutter analyze` 0건 통과
+
+### 📸 실행 화면 (AC1 Header)
+
+![4주차 프로필 화면](./week04_widget_lab/evidence/ac1-header.png)
