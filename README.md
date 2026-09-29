@@ -122,3 +122,13 @@ Flutter 기반으로 구현한 클래식 벽돌깨기 게임입니다.
 
 ---
 
+## 📱 할 일 앱 상태관리 및 컨텍스트
+
+- **주요 내용**: `StatefulWidget` 및 `setState`를 활용한 완료/취소 토글 및 남은 할 일 수(`_remaining`) 동기적 계산
+- **검증 결과**: `flutter analyze` 0건 통과
+
+### 📸 실행 화면 (todo1, todo2)
+
+| 미완료 상태 (todo1) | 완료 클릭 후 상태 (todo2) |
+|:---:|:---:|
+| ![todo1](./todo_app/evidence/todo1.png) | ![todo2](./todo_app/evidence/todo2.png) |
