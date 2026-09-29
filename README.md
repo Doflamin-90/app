@@ -132,3 +132,33 @@ Flutter 기반으로 구현한 클래식 벽돌깨기 게임입니다.
 | 미완료 상태 (todo1) | 완료 클릭 후 상태 (todo2) |
 |:---:|:---:|
 | ![todo1](./todo_app/evidence/todo1.png) | ![todo2](./todo_app/evidence/todo2.png) |
+
+---
+
+## 📱 상태 관리 및 당근마켓 UI 실습 예제
+
+### 1. 다크 모드 / 라이트 모드 전환
+| 다크 모드 | 라이트 모드 |
+|:---:|:---:|
+| ![dark](./state_lab/evidence/dark.png) | ![light](./state_lab/evidence/light.png) |
+
+---
+
+### 2. 랜덤 컬러 상자
+| 변경 전 | 변경 후 |
+|:---:|:---:|
+| ![randombox](./state_lab/evidence/randombox.png) | ![randombox2](./state_lab/evidence/randombox2.png) |
+
+---
+
+### 3. 폰트 크기 조절 슬라이더
+| 기본 크기 | 크기 변경 후 |
+|:---:|:---:|
+| ![textsize](./state_lab/evidence/textsize.png) | ![textsize2](./state_lab/evidence/textsize2.png) |
+
+---
+
+### 4. 당근마켓 웹 4열 그리드 검색 결과 화면
+| 당근마켓 검색 결과 UI |
+|:---:|
+| ![daangng](./state_lab/evidence/daangng.png) |
