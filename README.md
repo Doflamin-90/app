@@ -165,3 +165,25 @@ Flutter 기반으로 구현한 클래식 벽돌깨기 게임입니다.
 
 ---
 
+# 상태 기능과 작업 컨텍스트
+
+## 📌 주요 구현 내용
+
+- **상태 정의**: `_done` 목록을 원본 상태(State)로 관리하고, `_remaining`은 별도 중복 저장 없이 원본 상태에서 직접 계산되도록 구현
+- **상태 흐름**: 완료/취소 버튼 클릭 시 `_toggleDone(index)` 이벤트가 발생하여 `_done` 상태가 반전되고 `setState()`를 통해 UI 재렌더링
+- **컨텍스트 지도**: 목표, 현재 코드, 제약 사항, 인수 조건을 명시한 `CONTEXT_PACKET.md` 및 `PROMPT_COMPARISON.md` 작성
+
+---
+
+## 📸 실행 및 검증 증거 (Evidence)
+
+| AC1: 초기 화면 (남은 수 2) | AC2: 완료 상태 (남은 수 1) | AC2: 취소 원복 (남은 수 2) |
+| :---: | :---: | :---: |
+| ![AC1 Initial](evidence/ac1-initial.png) | ![AC2 Done](evidence/ac2-done.png) | ![AC2 Undone](evidence/ac2-undone.png) |
+| 시작 시 할 일 2개, 남은 수 2 | 첫 항목 완료 시 취소선 및 남은 수 1 | 다시 취소 시 원복 및 남은 수 2 |
+
+---
+
+## 🛠️ 검증 결과
+
+- `flutter analyze`: 오류 0개 (정적 분석 통과)
