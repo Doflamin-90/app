@@ -183,3 +183,24 @@ Flutter 기반으로 구현한 클래식 벽돌깨기 게임입니다.
 | 시작 시 할 일 2개, 남은 수 2 | 첫 항목 완료 시 취소선 및 남은 수 1 | 다시 취소 시 원복 및 남은 수 2 |
 
 ---
+
+# 플러터 레이아웃 위젯 및 병렬성 키워드 확인
+
+## 📌 주요 구현 내용
+
+- **레이아웃 위젯**: `Column`, `Expanded`, `Center`, `Padding`을 통한 UI 구성
+- **비동기 및 병렬 연산**:
+  - `Future.delayed`: 메인 스레드 멈춤 없이 작동하는 일반 비동기 테스트
+  - 동기식 무거운 연산: 메인 스레드 독점 및 UI 블로킹 확인
+  - `compute()` / `Isolate`: 백그라운드 스레드로 분리하여 수행하는 병렬 연산 구현
+
+---
+
+## 📸 실행 및 검증 증거 (Evidence)
+
+| 1. 일반 비동기 테스트 | 2. 메인 무거운 연산 | 3. Isolate 병렬 연산 |
+| :---: | :---: | :---: |
+| ![Async Test](evidence/async-test.png) | ![Heavy Test](evidence/heavy-test.png) | ![Isolate Test](evidence/isolate-test.png) |
+| 비동기 처리 확인 | 메인 스레드 연산 완료 | 스레드 분리 병렬 연산 완료 |
+
+---
