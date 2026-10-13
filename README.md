@@ -179,7 +179,7 @@ Flutter 기반으로 구현한 클래식 벽돌깨기 게임입니다.
 
 | AC1: 초기 화면 (남은 수 2) | AC2: 완료 상태 (남은 수 1) | AC2: 취소 원복 (남은 수 2) |
 | :---: | :---: | :---: |
-| ![AC1 Initial](evidence/ac1-initial.png) | ![AC2 Done](evidence/ac2-done.png) | ![AC2 Undone](evidence/ac2-undone.png) |
+| ![AC1 Initial](./state_lab/evidence/ac1-initial.png) | ![AC2 Done](./state_lab/evidence/ac2-done.png) | ![AC2 Undone](./state_lab/evidence/ac2-undone.png) |
 | 시작 시 할 일 2개, 남은 수 2 | 첫 항목 완료 시 취소선 및 남은 수 1 | 다시 취소 시 원복 및 남은 수 2 |
 
 ---
