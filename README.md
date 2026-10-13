@@ -177,10 +177,10 @@ Flutter 기반으로 구현한 클래식 벽돌깨기 게임입니다.
 
 ## 📸 실행 및 검증 증거 (Evidence)
 
-| AC1: 초기 화면 (남은 수 2) | AC2: 완료 상태 (남은 수 1) | AC2: 취소 원복 (남은 수 2) |
-| :---: | :---: | :---: |
-| ![AC1 Initial](./state_lab/evidence/ac1-initial.png) | ![AC2 Done](./state_lab/evidence/ac2-done.png) | ![AC2 Undone](./state_lab/evidence/ac2-undone.png) |
-| 시작 시 할 일 2개, 남은 수 2 | 첫 항목 완료 시 취소선 및 남은 수 1 | 다시 취소 시 원복 및 남은 수 2 |
+| 1. 초기 / 미완료 상태 | 2. 완료 / 상태 변경 화면 |
+| :---: | :---: |
+| ![State Lab 1](./week5_state_lab/evidence/ac1-initial.png) | ![State Lab 2](./week5_state_lab/evidence/ac2-done.png) |
+| 할 일 목록 및 초기 상태 | 완료 체크 및 상태 업데이트 |
 
 ---
 
