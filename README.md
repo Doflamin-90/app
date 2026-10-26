@@ -313,3 +313,5 @@ Flutter 기반으로 구현한 클래식 벽돌깨기 게임입니다.
 | :---: | :---: |
 | ![Digital Filter](./my_art_app/evidence/digtal.png) | ![Add Art Modal](./my_art_app/evidence/add_art.png) |
 | 디지털 항목 2개만 필터링 출력 | 작품 제목 및 분류(손그림/디지털) 선택 등록 |
+
+---
