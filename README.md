@@ -380,3 +380,5 @@ Flutter 기반으로 구현한 클래식 벽돌깨기 게임입니다.
 2. **5주차 StatefulWidget 리빌드 매커니즘 (`예제 적용 가능`)**
    - **이유**: Flutter UI 갱신 원리는 객관식/주관식 모두 높은 비중으로 출제됨.
    - **실행 행동**: `lib/main.dart`의 `_showAddDialog` 및 `_addNewArtwork` 메서드가 상태를 변경할 때 `build()`가 어디서부터 작동하는지 다이어그램으로 그려보기.
+
+ ---
