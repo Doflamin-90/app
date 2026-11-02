@@ -382,4 +382,5 @@ Flutter 기반으로 구현한 클래식 벽돌깨기 게임입니다.
    - **실행 행동**: `lib/main.dart`의 `_showAddDialog` 및 `_addNewArtwork` 메서드가 상태를 변경할 때 `build()`가 어디서부터 작동하는지 다이어그램으로 그려보기.
 
  ---
+
  
