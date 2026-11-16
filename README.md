@@ -383,7 +383,7 @@ Flutter 기반으로 구현한 클래식 벽돌깨기 게임입니다.
 
  ---
 
- ## 📅 개발 진행 기록 (2026-11-16)
+ ## 📅 개발 진행 기록
 
 ### 1. 프로젝트 환경 재구성 (`my_art_app`)
 - Flutter 프로젝트(`my_art_app`) 초기화 및 아키텍처 재설계 (`models`, `helpers`, `widgets`, `screens`)
