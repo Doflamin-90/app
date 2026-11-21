@@ -11,7 +11,7 @@ class DatabaseHelper {
 
   Future<Database> get database async {
     if (_database != null) return _database!;
-    _database = await _initDB('art_revision.db');
+    _database = await _initDB('art_revision_tutorial.db');
     return _database!;
   }
 
@@ -46,6 +46,13 @@ class DatabaseHelper {
         FOREIGN KEY (artworkId) REFERENCES artworks (id) ON DELETE CASCADE
       )
     ''');
+
+    await db.execute('''
+      CREATE TABLE tutorial_progress (
+        step INTEGER PRIMARY KEY,
+        completed INTEGER NOT NULL
+      )
+    ''');
   }
 
   Future<int> insertArtwork(Artwork artwork) async {
@@ -72,5 +79,23 @@ class DatabaseHelper {
       whereArgs: [artworkId],
     );
     return result.map((json) => LayerNote.fromMap(json)).toList();
+  }
+
+  Future<void> completeTutorialStep(int step) async {
+    final db = await instance.database;
+    await db.insert(
+      'tutorial_progress',
+      {'step': step, 'completed': 1},
+      conflictAlgorithm: ConflictAlgorithm.replace,
+    );
+  }
+
+  Future<List<int>> getCompletedTutorialSteps() async {
+    final db = await instance.database;
+    final result = await db.query(
+      'tutorial_progress',
+      where: 'completed = 1',
+    );
+    return result.map((row) => row['step'] as int).toList();
   }
 }
