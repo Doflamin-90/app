@@ -383,9 +383,11 @@ Flutter 기반으로 구현한 클래식 벽돌깨기 게임입니다.
 
  ---
 
- ### 📸 Art Project 앱 실행 화면 (UI/UX 증빙)
+---
+
+### 📸 Art Project 앱 실행 화면 (UI/UX 증빙)
 
 | 1. 홈 대시보드 (`HomeScreen`) | 2. 모바일 작업 캔버스 (`LayerDetailScreen`) | 3. 성찰 메모 & 가이드 (`MemoScreen`) |
 | :---: | :---: | :---: |
-| <img src="./evidence/HomeScreen.png" width="240" alt="홈 대시보드"> | <img src="./evidence/LayerDetailScreen.png" width="240" alt="작업 캔버스"> | <img src="./evidence/MemoScreen.png" width="240" alt="성찰 메모"> |
+| <img src="./my_art_app/evidence/HomeScreen.png" width="240" alt="홈 대시보드"> | <img src="./my_art_app/evidence/LayerDetailScreen.png" width="240" alt="작업 캔버스"> | <img src="./my_art_app/evidence/MemoScreen.png" width="240" alt="성찰 메모"> |
 | 새 캔버스 생성, 툴 퀵투어 가이드 및 작업 복기 목록 | 단계별 레이어 탭 및 좌측 브러시 컨트롤 바 연동 | 레이어별 수정 의도 기록 및 실시간 조작 가이드 |
